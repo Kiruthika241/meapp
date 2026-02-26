@@ -29,7 +29,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarContent">
           <div className="ms-auto d-flex flex-column flex-md-row align-items-start align-items-md-center gap-3 mt-3 mt-md-0">
             <a
-              href="/KIRUTHIKA_DEVI_G_RESUME.pdf"
+              href="/KIRUTHIKA_DEVI_G.docx"
               className="nav-link-custom"
               target="_blank"
               rel="noopener noreferrer"
