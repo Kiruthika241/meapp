@@ -139,7 +139,7 @@ export default function Hero() {
                 enjoys building dynamic, scalable, and user-friendly web applications.
               </p>
               <p>
-                My skills include <b>JavaScript, React, Node.js, Express, and MongoDB</b>,
+                My skills include <b>JavaScript, React, NodeJS, Express, and MongoDB</b>,
                 along with tools like <b>Bootstrap, GitHub, and Figma</b>.
               </p>
               <p>
@@ -179,7 +179,7 @@ export default function Hero() {
 
               <p>
                 I worked as a <b>Full Stack Developer – MERN</b> at
-                <b> Couples Info Tech</b> (Sep 2025 – Jan 2026), where I developed scalable web applications using the MERN stack (MongoDB, Express.js, React, Node.js). I handled both frontend and backend development, designed responsive user interfaces, structured efficient database systems, and collaborated with cross-functional teams to deliver high-performance and user-friendly applications.
+                <b> Couples Info Tech</b> (Sep 2025 – Jan 2026), where I developed scalable web applications using the MERN stack (MongoDB, Express, React, NodeJS). I handled both frontend and backend development, designed responsive user interfaces, structured efficient database systems, and collaborated with cross-functional teams to deliver high-performance and user-friendly applications.
               </p>
 
               <p>
@@ -192,7 +192,7 @@ export default function Hero() {
 
               <p>
                 My technical expertise includes
-                <b> JavaScript, React, Node.js, Express, MongoDB</b>,
+                <b> JavaScript, React, NodeJS, Express, MongoDB</b>,
                 along with tools like <b>Git, GitHub, Bootstrap, and Figma</b>.
               </p>
 
@@ -389,7 +389,7 @@ export default function Hero() {
             <div className="card-body">
               <h5 className="card-title">Chat Application</h5>
               <p className="card-text">
-                A real-time chat app built with Node.js, Express, and Socket.io.
+                A real-time chat app built with NodeJS, Express, and Socket.io.
               </p>
               <div className="d-flex justify-content-between">
                 <a href="https://your-live-site.com" target="_blank" rel="noreferrer" className="btn btn-color btn-sm">
@@ -487,7 +487,7 @@ export default function Hero() {
               <div className="col-6 col-md-3">
                 <div className="p-3 bg-dark rounded shadow-sm d-flex flex-column align-items-center">
                   <FaNodeJs size={40} color="#68A063" />
-                  <span className="mt-2">Node.js</span>
+                  <span className="mt-2">NodeJS</span>
                 </div>
               </div>
               <div className="col-6 col-md-3">
