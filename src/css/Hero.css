@@ -1,0 +1,144 @@
+/* Background */
+.hero-section {
+  background-color: rgba(0, 0, 0, 0.918);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  height: 520px; /* desktop */
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    height: 450px; /* tablet */
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section {
+    height: auto; /* mobile */
+    padding: 50px 0; /* vertical spacing */
+    flex-direction: column;
+  }
+}
+
+/* Text Highlight */
+.highlight {
+  color: #c002fa;
+}
+
+/* Purple text for icons/links */
+.text-purple {
+  color: #c002fa !important;
+  transition: 0.3s;
+}
+
+.text-purple:hover {
+  color: #fff !important;
+}
+
+/* Profile Image */
+/* .profile-pic {
+  border-radius: 20px;
+  background: #c002fa;
+  padding: 10px 0;
+  box-shadow: 0 0 40px rgba(229, 214, 233, 0.452);
+}
+
+@media (max-width: 576px) {
+  .profile-pic {
+    max-width: 200px;
+    padding: 5px 0;
+    margin-top: 20px;
+  }
+} */
+
+.profile-pic {
+  border-radius: 20px;
+  background: #c002fa;
+  padding: 10px 0;
+  box-shadow: 0 0 40px rgba(229, 214, 233, 0.452);
+  max-width: 350px;  /* Desktop */
+  width: 100%;       /* Always scale down */
+  height: auto;      /* Maintain aspect ratio */
+  object-fit: cover;
+}
+
+/* Tablets (medium screens) */
+@media (max-width: 992px) {
+  .profile-pic {
+    max-width: 280px;
+    padding: 8px 0;
+  }
+}
+
+/* Small tablets & large phones */
+@media (max-width: 768px) {
+  .profile-pic {
+    max-width: 230px;
+    padding: 6px 0;
+    margin-top: 15px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 576px) {
+  .profile-pic {
+    max-width: 200px;
+    padding: 5px 0;
+    margin-top: 20px;
+  }
+}
+
+
+
+.btn-purple {
+  background-color: #c002fa;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-purple:hover {
+  background-color: #e066ff;
+  color: #fff;
+}
+
+
+
+#contact {
+  background-color: rgba(0, 0, 0, 0.918); /* dark background */
+  color: white; /* make text visible */
+  padding: 60px 20px; /* spacing inside */
+  /* border-radius: 10px; */
+}
+#contact .form-control {
+  background-color: #222; /* dark gray input background */
+  color: white; /* text inside input */
+  border: 1px solid #555;
+}
+
+#contact .form-control:focus {
+  background-color: #333;
+  color: white;
+  border-color: #a855f7; /* purple border on focus */
+  box-shadow: none;
+}
+
+.btn-color{
+  background-color: #c002fa;
+  color:white;
+  font-weight:bold;
+}
+
+.card-img-top {
+  height: 220px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+  background-color: #000; /* optional for better contain look */
+}
+
+.card-img-top:hover {
+  object-fit: contain;
+}
